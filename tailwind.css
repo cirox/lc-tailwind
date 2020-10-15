@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply bg-black;
+}
+
+.cards {
+    @apply grid gap-8 grid-cols-auto justify-items-center items-end my-8;
+}
+
+.card {
+    @apply max-w-sm rounded overflow-hidden shadow-lg bg-white;
+}
+
+.card img {
+    @apply border-b-2 border-gray-500;
+}
+
+.card .text {
+    @apply p-4;
+}
+
+.card h3 {
+    @apply font-bold;
+}
+
+.card h3 {
+    @apply text-sm;
+}
+
+.nav {
+    @apply fixed bg-gray-600 h-screen w-20 z-10;
+}
+
+@tailwind utilities;
+
+@screen sm {
+    .card h3 {
+        @apply text-sm;
+    }
+}
+@screen lg {
+    .card h3 {
+        @apply text-2xl;
+    }
+}
