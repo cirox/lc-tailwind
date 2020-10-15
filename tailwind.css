@@ -30,7 +30,7 @@
 }
 
 .nav {
-    @apply fixed bg-gray-200 h-screen w-40 z-10 p-4;
+    @apply fixed bg-grai h-screen w-40 z-10 p-4;
 }
 
 @tailwind utilities;
