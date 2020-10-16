@@ -2,7 +2,15 @@
 @tailwind components;
 
 .btn {
-    @apply bg-black;
+    @apply w-3/4 mb-6 mx-auto;
+}
+
+.btn a {
+    @apply flex items-center justify-between h-10 w-full shadow-lg bg-white rounded border text-gray-600 p-4 h-16;
+}
+
+.btn a:hover {
+    @apply text-black;
 }
 
 .cards {
