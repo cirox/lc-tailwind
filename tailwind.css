@@ -18,7 +18,7 @@
 }
 
 .card {
-    @apply max-w-sm rounded-lg overflow-hidden shadow-lg bg-white;
+    @apply max-w-sm overflow-hidden shadow-lg bg-white;
 }
 
 .card img {
@@ -49,7 +49,16 @@
     }
 }
 @screen lg {
+    .card {
+        @apply rounded-lg;
+    }
     .card h3 {
         @apply text-2xl;
+    }
+}
+
+@screen md {
+    .card {
+        @apply rounded-lg;
     }
 }
