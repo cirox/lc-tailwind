@@ -6,7 +6,7 @@
 }
 
 .btn a {
-    @apply flex items-center justify-between h-10 w-full shadow-lg bg-white rounded border text-gray-600 p-4 h-16;
+    @apply flex items-center justify-between h-10 w-full shadow-lg bg-white rounded-lg border text-gray-600 p-4 h-16;
 }
 
 .btn a:hover {
@@ -18,7 +18,7 @@
 }
 
 .card {
-    @apply max-w-sm rounded overflow-hidden shadow-lg bg-white;
+    @apply max-w-sm rounded-lg overflow-hidden shadow-lg bg-white;
 }
 
 .card img {
