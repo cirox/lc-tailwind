@@ -18,11 +18,11 @@
 }
 
 .card {
-    @apply max-w-sm overflow-hidden shadow-lg bg-white;
+    @apply max-w-sm overflow-hidden shadow-lg bg-white border;
 }
 
 .card img {
-    @apply border-b-2 border-gray-500;
+    @apply border-b border-gray-500;
 }
 
 .card .text {
@@ -38,7 +38,7 @@
 }
 
 .nav {
-    @apply fixed bg-gray-100 h-screen w-40 z-10 p-4;
+    @apply fixed bg-gray-100 h-screen w-40 z-10 p-4 text-sm;
 }
 
 @tailwind utilities;
