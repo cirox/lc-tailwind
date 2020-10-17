@@ -6,7 +6,7 @@
 }
 
 .btn a {
-    @apply flex items-center justify-between h-10 w-full shadow-lg bg-white rounded-lg border text-gray-600 p-4 h-16;
+    @apply flex items-center justify-between w-full shadow-lg bg-white rounded-lg border text-gray-600 px-4;
 }
 
 .btn a:hover {
