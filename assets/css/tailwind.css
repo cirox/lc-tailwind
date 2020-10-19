@@ -1,5 +1,8 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
+
+/* CUSTOM STYLES */
 
 .btn {
     @apply w-3/4 mb-6 mx-auto;
@@ -37,12 +40,40 @@
     @apply text-sm;
 }
 
+/* ------ NAVIGATION 
+------------------ */
+
 .nav {
-    @apply fixed bg-gray-100 h-screen w-40 z-10 p-4 text-sm;
+    @apply fixed bg-white border-r h-screen w-auto z-10 p-0 text-sm;
+}
+.nav.v-nav ul{
+    @apply pt-3;
+}
+.nav.v-nav a{
+    @apply block px-6 h-14 flex items-center justify-between text-gray-600 cursor-pointer;
+    transition: color .2s ease;
+}
+.nav.v-nav a:hover{
+    @apply text-gray-700;
+}
+.nav.v-nav a svg{
+    @apply fill-gray;
+}
+.nav.v-nav a.accent svg{
+    @apply fill-accent;
+}
+.nav.v-nav a.active{
+    @apply text-gray-700;
+}
+.nav.v-nav a.active svg{
+    @apply fill-primary;
+}
+.nav.v-nav a.logo{
+    @apply border-b flex items-center h-16;
 }
 
-@tailwind utilities;
-
+/* ------ BREAKPOINTS 
+------------------ */
 @screen sm {
     .card h3 {
         @apply text-sm;
