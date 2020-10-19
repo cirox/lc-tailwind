@@ -75,6 +75,11 @@ module.exports = {
         'auto': 'repeat(auto-fit, minmax(280px, 1fr))',
       }
     },
+    fill: theme => ({
+       'gray': theme('colors.gray.800'),
+       'primary': theme('colors.primary.500'),
+       'accent': theme('colors.accent.500'),
+     })
   },
   variants: {},
   plugins: [],

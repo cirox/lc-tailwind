@@ -23517,6 +23517,9 @@ video {
 
 /* CUSTOM STYLES */
 
+/* ------ BUTTONS 
+------------------ */
+
 .btn {
   width: 75%;
   margin-bottom: 1.5rem;
@@ -23547,6 +23550,9 @@ video {
   color: #000;
   color: rgba(0, 0, 0, var(--text-opacity));
 }
+
+/* ------ CARDS 
+------------------ */
 
 .cards {
   display: grid;
@@ -23625,8 +23631,8 @@ video {
 
 .nav.v-nav a:hover{
   --text-opacity: 1;
-  color: #4a5568;
-  color: rgba(74, 85, 104, var(--text-opacity));
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
 }
 
 .nav.v-nav a svg{
@@ -23639,8 +23645,8 @@ video {
 
 .nav.v-nav a.active{
   --text-opacity: 1;
-  color: #4a5568;
-  color: rgba(74, 85, 104, var(--text-opacity));
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
 }
 
 .nav.v-nav a.active svg{

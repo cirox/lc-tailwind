@@ -4,6 +4,9 @@
 
 /* CUSTOM STYLES */
 
+/* ------ BUTTONS 
+------------------ */
+
 .btn {
     @apply w-3/4 mb-6 mx-auto;
 }
@@ -15,6 +18,9 @@
 .btn a:hover {
     @apply text-black;
 }
+
+/* ------ CARDS 
+------------------ */
 
 .cards {
     @apply grid gap-8 grid-cols-auto justify-items-center items-end my-8;
@@ -54,7 +60,7 @@
     transition: color .2s ease;
 }
 .nav.v-nav a:hover{
-    @apply text-gray-700;
+    @apply text-gray-800;
 }
 .nav.v-nav a svg{
     @apply fill-gray;
@@ -63,7 +69,7 @@
     @apply fill-accent;
 }
 .nav.v-nav a.active{
-    @apply text-gray-700;
+    @apply text-gray-800;
 }
 .nav.v-nav a.active svg{
     @apply fill-primary;
